@@ -157,7 +157,7 @@ main{
    .mobile-nav-toggle{
        display: block;
       background-color: transparent;
-       background-image: url(./assets/img/opcion-de-reordenar.png);
+       background-image: url(../assets/img/opcion-de-reordenar.png);
        width: 2rem;
        aspect-ratio: 1;
        z-index: 100;
@@ -168,7 +168,7 @@ main{
        transition: transform 300ms ease-in, 300ms 300ms ease-in;
    }
    .mobile-nav-toggle[aria-expanded="true"]{
-       background-image: url(./assets/img/eliminar.png);
+       background-image: url(../assets/img/eliminar.png);
        transform: rotate(90deg);
    }
 
