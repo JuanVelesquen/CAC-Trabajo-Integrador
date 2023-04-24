@@ -371,6 +371,11 @@ main{
       order: -1;
       font-size: 1.6rem;
    }
+   .card p,
+   .card h3,
+   .card__title{
+      padding: 0;
+   }
 }
 
 /*--------Conoce mas------------*/
