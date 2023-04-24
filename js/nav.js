@@ -17,10 +17,6 @@ navtoggle.addEventListener("click", () => {
 })
 
 navLink.addEventListener("click", () => {
-    const visibility = primaryNav.getAttribute("data-visible");
-    if (visibility === "true")
-    {
         primaryNav.setAttribute("data-visible","false");
         navtoggle.setAttribute("aria-expanded","false");
-    }
 })
