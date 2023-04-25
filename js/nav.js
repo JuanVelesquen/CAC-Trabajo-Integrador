@@ -1,6 +1,6 @@
 const primaryNav = document.querySelector(".primary-navigation");
 const navtoggle = document.querySelector(".mobile-nav-toggle");
-const navLink = document.querySelectorAll(".nav__link");
+const navLink = document.querySelectorAll('.nav__link');
 
 navtoggle.addEventListener("click", () => {
     const visibility = primaryNav.getAttribute("data-visible");
@@ -17,6 +17,7 @@ navtoggle.addEventListener("click", () => {
 })
 
 navLink.addEventListener("click", () => {
+    const visibility = primaryNav.getAttribute("data-visible");
     primaryNav.setAttribute("data-visible","false");
     navtoggle.setAttribute("aria-expanded","false");
 })
