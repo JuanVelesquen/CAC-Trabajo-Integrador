@@ -16,7 +16,10 @@ navtoggle.addEventListener("click", () => {
     }
 })
 
-navLink.addEventListener("click", () => {
-    primaryNav.setAttribute("data-visible","false");
-    navtoggle.setAttribute("aria-expanded","false");
-})
+for(let i = 0; i < navLink.length;i++)
+{
+    navLink[i].addEventListener("click", () => {
+        primaryNav.setAttribute("data-visible","false");
+        navtoggle.setAttribute("aria-expanded","false");
+    });
+}
