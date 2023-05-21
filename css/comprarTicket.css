@@ -1,0 +1,106 @@
+
+main{
+   padding-top: 6rem;
+}
+
+.container-descuentos__card{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.card__descuentos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem;
+}
+
+.card__descuentos p,h3{
+   color: rgb(19, 18, 18);
+}
+
+.card__descuentos h5{
+   color: rgba(46, 45, 45, 0.555);
+}
+.blue-border{
+   border: 1px solid rgb(16, 16, 177);
+}
+.light-blue-border{
+   border: 1px solid rgb(13, 155, 180);
+}
+.yellow-border{
+   border: 1px solid rgb(185, 182, 8);
+}
+
+.title h3,h2{
+   margin-top: 1rem;
+}
+
+#correo{
+   padding: 0.5rem;
+}
+
+.formulario__cantidad-categoria{
+   display: flex;
+   gap: 0.5rem;
+
+}
+.cantidad-categoria{
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.formulario__nombre-apellido input,
+.cantidad-categoria input{
+   border: 0.2px solid hsla(210, 11%, 15%, 0.5);
+   padding: 0.5rem 3rem 0.5rem 1rem;
+}
+.formulario__nombre-apellido{
+   justify-content: space-between;
+   gap: 0rem;
+}
+.cantidad-categoria select,option{
+   border: 0.2px solid hsla(210, 11%, 15%, 0.5);
+   padding: 0.5rem 3rem 0.5rem 1rem;
+   padding-right: 9rem;
+
+}
+
+.total-pagar-container{
+   display: flex;
+   gap: 0.2rem;
+   padding: 0.8rem;
+   background-color: rgba(57, 116, 194, 0.342);
+   font-size: 4rem;
+   border-radius: 5px;
+}
+
+.total-pagar-container p{
+   font-size: 1rem;
+   color: rgba(0, 0, 0, 0.719);
+}
+
+.botones-borrar-resumen{
+   display: flex;
+   gap: 0.5rem;
+}
+
+.botones-borrar-resumen button{
+   width: 50%;
+   cursor: pointer;
+   margin: 0;
+   text-decoration: none;
+   border: 0;
+   background-color: #96C93E;
+   color: white;
+   padding: 0.5rem;
+   border-radius: 5px;
+   transition: 300ms ease-in;
+}
+
+.botones-borrar-resumen button:hover{
+   background-color: #489543;
+}
