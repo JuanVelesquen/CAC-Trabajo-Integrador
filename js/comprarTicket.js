@@ -6,10 +6,11 @@ const borrar = document.getElementById("borrar");
 resumen.addEventListener("click", () =>{
     let categoria = select.value;
     let cantidad = parseInt(cant.value);
-    if(cantidad == null){
+    let suma = 0;
+    console.log(cantidad);
+    if(cantidad == NaN){
         cantidad = 0;
     }
-    let suma = 0;
     if(categoria == "estudiante"){
         suma = cantidad * 200 * 0.2;
     }else if(categoria == "trainee"){
@@ -17,8 +18,7 @@ resumen.addEventListener("click", () =>{
     }else if(categoria == "junior"){
         suma = cantidad * 200 * 0.85;
     }
-    console.log(suma);
-    document.getElementById("total-pagar").innerHTML = suma;
+    document.getElementById("total-pagar").innerHTML = "$" + suma;
 })
 
 borrar.addEventListener("click", () =>{
@@ -27,4 +27,5 @@ borrar.addEventListener("click", () =>{
     document.getElementById("nombre").value = null;
     document.getElementById("apellido").value = null;
     document.getElementById("correo").value = null;
+    document.getElementById("total-pagar").innerHTML = "$";
 })
