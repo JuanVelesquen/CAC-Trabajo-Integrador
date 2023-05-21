@@ -120,7 +120,7 @@ main{
    width: 49%;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 670px) {
    .container-descuentos__card{
       flex-direction: column;
       width: 90%;
