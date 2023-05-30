@@ -43,9 +43,7 @@ main{
    gap: 0.5rem;
 }
 
-#correo{
-   padding: 0.5rem;
-}
+
 
 .formulario__cantidad-categoria{
    display: flex;
@@ -62,9 +60,16 @@ main{
    width: 100%;
    max-width: 668.5px;
 }
+
+.cantidad-categoria select{
+   border: 0.2px solid hsla(210, 11%, 15%, 0.5);
+   padding: 0.6369rem 4rem 0.6369rem 1rem;
+}
+
+
 .formulario__nombre-apellido input,
 .cantidad-categoria input,
-.cantidad-categoria select{
+#correo{
    border: 0.2px solid hsla(210, 11%, 15%, 0.5);
    padding: 0.7rem 4rem 0.7rem 1rem;
 }
@@ -74,12 +79,7 @@ main{
    gap: 0rem;
 }
 
-.cantidad-categoria select{
-   padding-top: 0.6rem;
-   padding-bottom: 0.6rem;
-   padding-right: 9rem;
 
-}
 
 .total-pagar-container{
    display: flex;
